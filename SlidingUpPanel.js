@@ -26,7 +26,7 @@ const keyboardShowEvent = Platform.select({
 
 const keyboardHideEvent = Platform.select({
   android: 'keyboardDidHide',
-  ios: 'keyboardWillHide'
+  ios: 'keyboardDidHide'
 })
 
 const usableHeight = visibleHeight() - statusBarHeight()
